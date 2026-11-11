@@ -1,0 +1,18 @@
+{
+  "name": "ma3042-slidev-week1-spherical",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MA3042 Geometri — Minggu 1: Geometri Bola S^2 & Struktur Grup Isometri Iso(S^2) (Slidev + JSXGraph)",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /slidev-week1-spherical/",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.0.0",
+    "@slidev/theme-default": "latest",
+    "jsxgraph": "^1.10.1",
+    "vue": "^3.5.0"
+  }
+}
+
