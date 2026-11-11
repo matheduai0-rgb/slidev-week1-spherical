@@ -15,9 +15,9 @@
 
 **Teorema 2.8 (Teorema Rotasi Euler — Lee).** Komposisi dari dua rotasi pada $\mathbb{S}^2$ adalah suatu rotasi.
 
-*Bukti:* Misalkan $r_1 = \bar{r}_{G_1} \circ \bar{r}_{G_2}$ dan $r_2 = \bar{r}_{G_3} \circ \bar{r}_{G_4}$ dengan $G_2 \cap G_3 = \{p, -p\}$. Berdasarkan Teorema 7 (eksistensi garis keempat melalui $\pm p$), terdapat lingkaran besar $G'_2$ melalui $p, -p$ sehingga $\bar{r}_{G_1} \circ \bar{r}_{G_2} = \bar{r}_{G'_2} \circ \bar{r}_{G_3}$. Maka:
+*Bukti:* Misalkan $r_1 = \bar{r}_{G_1} \circ \bar{r}_{G_2}$ dan $r_2 = \bar{r}_{G_3} \circ \bar{r}_{G_4}$ dengan $G_2 \cap G_3 = \{p, -p\}$. Berdasarkan Teorema 7 (eksistensi garis keempat melalui $\pm p$), terdapat lingkaran besar $G_2'$ melalui $p, -p$ sehingga $\bar{r}_{G_1} \circ \bar{r}_{G_2} = \bar{r}_{G_2'} \circ \bar{r}_{G_3}$. Maka:
 
-$$r_1 \circ r_2 = \bar{r}_{G'_2} \circ (\bar{r}_{G_3} \circ \bar{r}_{G_3}) \circ \bar{r}_{G_4} = \bar{r}_{G'_2} \circ \bar{r}_{G_4} \quad \text{(suatu rotasi!)}. \quad \text{∎}$$
+$$r_1 \circ r_2 = \bar{r}_{G_2'} \circ (\bar{r}_{G_3} \circ \bar{r}_{G_3}) \circ \bar{r}_{G_4} = \bar{r}_{G_2'} \circ \bar{r}_{G_4} \quad \text{(suatu rotasi!)}. \quad \blacksquare$$
 
 </div>
 

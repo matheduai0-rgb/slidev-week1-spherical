@@ -57,7 +57,7 @@ Fondasi Logika Deduktif: **Marvin Jay Greenberg**, *Euclidean and Non-Euclidean 
 
 | Fitur Geometri | Bidang Euklides ($\mathbb{E}^2$) | Bola Satuan ($\mathbb{S}^2$) | Bidang Hiperbolik ($\mathbb{H}^2$) |
 | :--- | :--- | :--- | :--- |
-| **Himpunan Dasar** | $\mathbb{R}^2 = \{(x,y)\}$ | $\mathbb{S}^2 = \{p \in \mathbb{R}^3 \mid \|p\|=1\}$ | $\mathbb{H}^2 = \{(x,y) \in \mathbb{R}^2 \mid y > 0\}$ |
+| **Himpunan Dasar** | $\mathbb{R}^2 = \{(x,y)\}$ | $\mathbb{S}^2 = \{p \in \mathbb{R}^3 \mid \Vert p \Vert = 1\}$ | $\mathbb{H}^2 = \{(x,y) \in \mathbb{R}^2 \mid y > 0\}$ |
 | **Definisi Garis** | Ekuidistan $L_{p_1, p_2}$ | Ekuidistan $G_{p_1, p_2}$ | Ekuidistan $H_{p_1, p_2}$ (Def. 4.13) |
 | **Wujud Garis** | Garis lurus di $\mathbb{R}^2$ | Lingkaran besar $\mathbb{S}^2 \cap P$ (Prop. 2.3) | Sinar vertikal / setengah lingkaran $\perp$ sumbu-$x$ |
 | **Generator Atomik** | Refleksi garis $\bar{r}_L$ | Refleksi lingkaran besar $\bar{r}_G$ | Inversi hiperbolik $I_C$ (Thm. 4.4) |

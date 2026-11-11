@@ -51,3 +51,4 @@ Buka peramban di `http://localhost:3030`.
 npm run build
 ```
 Hasil build statis tersimpan di direktori `dist/`.
+

@@ -21,7 +21,7 @@
 1. Tinjau kombinasi linier nol $c_1 u_1 + \dots + c_n u_n = 0$ <span class="just">(Hipotesis Kebebasan Linier)</span>.
 2. Untuk setiap indeks $k \in \{1, \dots, n\}$, ambil hasil kali titik kedua ruas dengan $u_k$:
 
-   $$0 = \left\langle \sum_{i=1}^n c_i u_i, u_k \right\rangle = \sum_{i=1}^n c_i \langle u_i, u_k \rangle = \sum_{i=1}^n c_i \delta_{ik} = c_k \quad \text{(Bilinearitas & Hipotesis } H\text{)}.$$
+   $$0 = \left\langle \sum_{i=1}^n c_i u_i, u_k \right\rangle = \sum_{i=1}^n c_i \langle u_i, u_k \rangle = \sum_{i=1}^n c_i \delta_{ik} = c_k \quad \text{(Bilinearitas \& Hipotesis } H\text{)}.$$
 
 3. Karena $c_1 = \dots = c_n = 0$, $\mathcal{B}$ bebas linier; karena $|\mathcal{B}| = n = \dim(\mathbb{R}^n)$, $\mathcal{B}$ adalah basis <span class="just">(Dimensi Aljabar Linier)</span>.
 4. Sebarang $x \in \mathbb{R}^n$ ditulis unik $x = \sum_{i=1}^n \alpha_i u_i$; hasil kali titik dengan $u_k$ menghasilkan $\langle x, u_k \rangle = \alpha_k$ <span class="just">(Langkah 2)</span>. <span class="qed">∎</span>
@@ -138,7 +138,7 @@ $$
 \begin{array}{ccc}
 [x]_{\mathcal{B}} & \xrightarrow{\quad [T]_{\mathcal{B}} \quad} & [T(x)]_{\mathcal{B}} \\
 \Big\downarrow{\scriptstyle P} & & \Big\downarrow{\scriptstyle P} \\
-[x]_{\mathcal{E}} & \xrightarrow[\quad [T]_{\mathcal{E}} \quad]{} & [T(x)]_{\mathcal{E}}
+[x]_{\mathcal{E}} & \xrightarrow[{\quad [T]_{\mathcal{E}} \quad}]{} & [T(x)]_{\mathcal{E}}
 \end{array}
 $$
 
